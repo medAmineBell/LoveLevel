@@ -8,7 +8,7 @@ function initBattery() {
 
 
     updateBattery = () => {
-        let level = 30
+        let level = 40
         let charing = false;
         batteryPercentage.innerHTML = level + '%'
 
