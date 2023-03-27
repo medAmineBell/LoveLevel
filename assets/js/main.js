@@ -8,7 +8,7 @@ function initBattery() {
 
 
     updateBattery = () => {
-        let level = 40
+        let level = 100
         let charing = false;
         batteryPercentage.innerHTML = level + '%'
 
@@ -16,7 +16,7 @@ function initBattery() {
 
 
         if (level == 100) {
-            batteryStatus.innerHTML = 'Full Loved, Love u <i class="ri-battery-2-fill green-color"></i>'
+            batteryStatus.innerHTML = 'Full Loved Kissa w Amine <i class="ri-battery-2-fill green-color"></i>'
             batteryLiquid.style.height = "103%"
         } else if (level <= 49 & !charing) {
             batteryStatus.innerHTML = 'Low Love :( <i class="ri-plug-line animated-red"></i>'
