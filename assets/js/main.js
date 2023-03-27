@@ -8,8 +8,8 @@ function initBattery() {
 
 
     updateBattery = () => {
-        let level = 50
-        let charing = true;
+        let level = 30
+        let charing = false;
         batteryPercentage.innerHTML = level + '%'
 
         batteryLiquid.style.height = level + "%"
